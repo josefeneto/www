@@ -9,7 +9,7 @@
 <body>
 
     <script>
-        let promise = fetch('http://github.com/josefeneto/HTML-learning/blob/master/coffee.jpg');
+        let promise = fetch('http://josefeneto.github.io/www/coffee.jpg');
         let promise2 = promise.then(response => response.blob());
         let promise3 = promise2.then(myBlob => {
             let objectURL = URL.createObjectURL(myBlob);
